@@ -1,0 +1,510 @@
+*,::after,::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    z-index: 10;
+}
+
+header #logo_container { 
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+header #logo_container #logo { 
+    height: 3rem;
+    filter: brightness(110%);
+}
+
+
+article#hero_container {
+    height: 88vh;
+    display: flex;
+    margin-top: 5rem;
+}
+
+article#hero_container #hero_img_sec {
+    height: 99%;
+    width: 44%;
+    margin-left: 1%;
+}
+
+article#hero_container #hero_img_sec img {
+    width: 100%;
+    height: 100%;
+}
+
+article#hero_container #hero_title_sec {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article#hero_container #hero_title_sec #hero_title_subsec {
+    text-align: center;
+}
+
+article#hero_container #hero_title_sec #hero_title_subsec h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #535353;
+    font-family:'Times New Roman', Times, serif;
+    width: 90%;
+    margin-left: 5%;
+}
+
+article#hero_container #hero_title_sec #bywho_container {
+    font-size: .9rem;
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+article#hero_container #hero_title_sec #bywho_container img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
+}
+
+/*-------------------------*/
+
+main {
+    display: flex;
+    margin-top: 18vh;
+}
+
+main #main_content_wrapper {
+    width: 60%;
+    margin-left: 10%;
+}
+
+main #ads_wrapper {
+    width: 29%;
+    margin-top: 70%;
+}
+
+main #first_sec p,
+main #second_sec p,
+main #third_sec p {
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+main #first_sec h3 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    text-transform: capitalize;
+}
+
+main #second_sec {
+    margin-top: 13vh;
+}
+
+main #second_sec h3 {
+    font-size : 1.8rem;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+main #third_sec { 
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+main #third_sec h5 { 
+    font-size : 1.2rem;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    padding: 1.5rem 0;
+    text-transform: capitalize;
+}
+
+main #third_sec img {
+    margin: 6vh 0 10vh 0;
+    width: 80%;
+    margin-left: 10%;
+}
+
+main #third_sec .nutritional_value {
+    color: #757575;
+}
+
+main #third_sec .ingredients_sec {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 2rem 0;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+main #third_sec .ingredients_sec ul {
+   list-style: none;
+   font-family: "Lucida Console", Courier, monospace;
+}
+
+main .recipes_sec {
+    line-height: 2.5rem;
+    padding: 2rem 0;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+main .recipes_sec .recipe_title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+main #summery_sec {
+    padding-bottom: .1rem;
+    border-left: 4px solid red;
+    padding-left: 2rem;
+}
+
+
+/*----------------------------------*/
+
+
+.links_container { margin-top: 130vh; }
+
+.adbox { 
+    width: 90%;
+    height: 48rem;
+    background-color: #fdf4f4;
+    margin-top: 80vh;
+    margin-left: 5%;
+}
+
+.adbox h1,
+footer #footer_ads_container h1 {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 12%;
+    color: darkcyan;
+    padding: .2rem;
+}
+
+.adbox p,
+footer #footer_ads_container p { margin-left: 1rem; }
+
+.adbox li,
+footer #footer_ads_container li {
+    list-style: disclosure-closed;
+    line-height: 2rem;
+    margin-left: 3.5rem;
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+
+.adbox img { 
+    height: 10rem;
+    width: 100%;
+}
+
+.adbox #all_for,
+footer #footer_ads_container #all_for {
+    display: block;
+    margin: 5%;
+    padding: .5rem;
+    border: none;
+    background-color: inherit;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+.adbox #all_for .amount,
+footer #footer_ads_container .amount { color: red; }
+
+.adbox a,
+footer #footer_ads_container a{
+    padding: .5rem 1rem;
+    background-color: coral;
+    border-radius: 5rem;
+    border: none;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.adbox a:hover,
+.adbox a:focus,
+footer #footer_ads_container a:hover,
+footer #footer_ads_container a:focus {  
+    background-color: #ff6026; 
+    text-decoration: none;
+ }
+
+
+#ads_wrapper a {
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+    font-size: .8rem;
+}
+
+a { text-decoration: none;  }
+
+a:hover, a:focus { text-decoration: underline; }
+
+/*-----------------------------------------*/
+
+footer { 
+    display: flex;
+    margin-top: 20vh; 
+}
+
+footer #emailbox_container,
+footer #footer_ads_container {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15vh;
+    line-height: 1.8rem;
+    background-color: #f5f5dc;
+    padding: 1rem 0;
+    height: 75vh;
+}
+
+footer #footer_ads_container {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    height: fit-content;
+    margin-bottom: 1rem;
+    margin-top: 0vh;
+
+}
+
+footer #emailbox_container h1 {
+    text-align: center;
+    font-size: 1.5rem;  
+    margin: 7vh 0;
+}
+
+footer #emailbox_container #email {
+    width: 79%;
+    margin-left: 10%;
+    margin-top: 8vh;
+    padding: 1rem .5rem;
+    margin-bottom: 5vh;
+    font-size: 1rem;
+    border-radius: 11px;
+}
+
+footer #footer_ads_container img {
+    height: 40vh;
+    width: 60%;
+    margin-left: 20%;
+}
+
+footer #footer_ads_container button{
+    padding: 1rem .5rem;
+
+}
+
+.footer_ads_container-mobile {  display: none;  }
+
+footer #emailbox_container #warning {
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+/*---------------------------------*/
+@media screen and (max-width: 970px) {
+
+    article#hero_container #hero_img_sec {  display: none; }
+
+    main { margin-top: 0; }
+
+    article#hero_container #hero_title_sec {  width: 100%;   }
+
+    article#main_content_wrapper { 
+        width: 96%; 
+        margin-left: 2%;
+    }
+    article#ads_wrapper { display: none; }
+
+    main #third_sec .ingredients_sec {
+        width: 90%;
+        margin-left: 5%;
+        font-size: .8rem;
+        padding: 1rem;
+    }
+
+    main .recipes_sec {
+        width: 96%;
+        margin-left: 4%;
+        margin-bottom: 0;
+    }
+
+    main .recipes_sec,
+    main #first_sec p, main #second_sec p, main #third_sec p { font-size: .9rem; }
+
+    .recipes_sec li {
+        margin-bottom: 2rem;
+        line-height: 1.8rem;
+    }
+
+    main #third_sec h5 { text-align: center; }
+
+    main #third_sec img { margin-bottom: 0; }
+
+    main #summery_sec {
+        padding-bottom: 0rem;
+        border-left: 4px solid red;
+        padding-left: .5rem;
+    }
+
+    footer {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 4rem; 
+    }
+
+    footer #emailbox_container {
+        width: 100%;
+        margin: 0 0 ;
+    }
+
+    footer #emailbox_container #discri { font-size: .9rem; }
+
+    footer #emailbox_container #email,
+    footer #emailbox_container #forward  { 
+        padding: .8rem .5rem;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    footer #emailbox_container #forward { margin-top: 0; }
+
+    footer #emailbox_container { height: 75vh; }
+
+    footer #footer_ads_container {   width: 90%;   }
+
+    footer #footer_ads_container img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    footer #footer_ads_container h1 { font-size: 1.7rem; }
+
+    footer #footer_ads_container li { margin-left: 15%; }
+
+    footer #footer_ads_container button {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .footer_ads_container-mobile { 
+        display: flex;
+        background-color: #fdf4f4;
+        margin-bottom: 10vh;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+     }
+
+    .footer_ads_container-mobile  div { 
+        width: 50%;
+        font-size: .9rem;
+        line-height: 1.5rem;
+        font-size: .8rem;
+    }
+
+    main #third_sec img#ad_img {
+        margin: 6vh 0 1vh 0;
+        height: 30vh;
+        width: 99%;
+        margin-left: 1%;
+    }
+
+    .footer_ads_container-mobile h1 {
+        text-align: center;
+        color: darkcyan;
+        font-size: 1rem;  
+        padding: 0 .2rem
+    }
+
+    .footer_ads_container-mobile li {
+        width: 90%;
+        margin-left: 10%;
+        margin-bottom: 1rem;
+        font-size: .8rem;
+        list-style: disclosure-closed;
+    }
+
+    .footer_ads_container-mobile #all_for {
+        font-size: 1.3rem;
+        font-family: cursive;
+        text-align: center;
+        margin-bottom: .7rem;
+    }
+
+    .footer_ads_container-mobile #all_for .amount { color: red; }
+
+    .footer_ads_container-mobile a.affliate_link { 
+        padding: .5rem 1rem;
+        background-color: coral;
+        border-radius: 5rem;
+        border: none;
+        font-weight: bold;
+        margin-left: 10%;
+        width: 80%;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_ads_container-mobile a.affliate_link:hover,
+    .footer_ads_container-mobile a.affliate_link:focus{ text-decoration: none; }
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    footer #emailbox_container #email {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #secondary_container input, #forward {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    footer #footer_ads_container a {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .footer_ads_container-mobile a.affliate_link { 
+        width: 96%;
+        margin-left: 2%;
+    }
+
+}
