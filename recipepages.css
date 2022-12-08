@@ -161,6 +161,9 @@ main #third_sec .ingredients_sec ul {
    font-family: "Lucida Console", Courier, monospace;
 }
 
+main #third_sec .ingredients_sec ul #sublist_title { font-weight: bold; };
+
+
 main .recipes_sec {
     line-height: 2.5rem;
     padding: 2rem 0;
