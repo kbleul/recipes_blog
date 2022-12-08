@@ -366,10 +366,14 @@ footer #emailbox_container #warning {
     main .recipes_sec,
     main #first_sec p, main #second_sec p, main #third_sec p { font-size: .9rem; }
 
-    .recipes_sec li {
+    main .recipes_sec li {
         margin-bottom: 2rem;
         line-height: 1.8rem;
     }
+    main section.recipes_sec ol {
+        line-height: 2rem;
+        background-color: red;
+      }
 
     main #third_sec h5 { text-align: center; }
 
@@ -486,7 +490,12 @@ footer #emailbox_container #warning {
 
 }
 
-
+main .recipes_sec {
+    line-height: 2.5rem;
+    padding: 2rem 0;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 
 @media screen and (max-width: 600px) {
 
