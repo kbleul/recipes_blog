@@ -497,6 +497,19 @@ main .recipes_sec {
     margin-bottom: 10vh;
 }
 
+.embedded_links {
+    color: #f95200;
+    margin-left: .4rem;
+}
+
+.embedded_links:hover { text-decoration: none;  }
+
+.blog_article h2 { height: 3.8rem; }
+.blog_article .para_div {
+    height: 35vh;
+}
+
+
 @media screen and (max-width: 600px) {
 
     footer #emailbox_container #email {
